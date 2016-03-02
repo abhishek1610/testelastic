@@ -4,12 +4,12 @@ package test.es.indexer;
  * Created by root on 21/02/16.
  */
 
-import test.es.Vacancy;
+import test.es.Student;
 
-public class vacancyIndexer implements Indexer<Vacancy> {
+public class studentindexer implements Indexer<Student> {
 
    // @Override
-    public boolean indexDocument(Vacancy document) {
+    public boolean indexDocument(Student document) {
         // TODO Auto-generated method stub
         return false;
     }
@@ -27,7 +27,7 @@ public class vacancyIndexer implements Indexer<Vacancy> {
     }
 
    // @Override
-    public boolean deleteDocument(Vacancy document) {
+    public boolean deleteDocument(Student document) {
         // TODO Auto-generated method stub
         return false;
     }
